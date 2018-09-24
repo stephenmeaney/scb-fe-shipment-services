@@ -34,6 +34,10 @@ public class ShipmentRepositoryIntegrationTest {
         shipment.setAccountId(1L);
         shipment.setShippingAddressId(1L);
 
+        if (shipmentRepository.findById(1L) != null) {
+            shipmentRepository.deleteById(1L);
+        }
+
         entityManager.persistAndFlush(shipment);
 
         Shipment foundShipment = shipmentRepository.findById(1L);
