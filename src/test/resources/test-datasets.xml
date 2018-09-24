@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <shipment shipment_id="1" shipped_date="2000-01-01" delivery_date="2001-01-01" account_id="1" shipping_address_id="1" />
+    <shipment shipment_id="2" shipped_date="2000-02-02" delivery_date="2001-02-02" account_id="2" shipping_address_id="2" />
+
+</dataset>
